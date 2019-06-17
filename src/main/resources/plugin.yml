@@ -1,0 +1,156 @@
+name: PTCraft
+version: ${project.version}
+main: net.cyberpon3.ptcraft.PtCraft
+api-version: 1.14
+load: POSTWORLD
+authors: [CyberPon3]
+description: Custom Plugin for PTCraft
+website: ptcraft.cp3.es
+commands:
+  admin:
+    description: Sends an admin message
+    permission: ptcraft.command.admin
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  cry:
+    description: Makes you cry
+    permission: ptcraft.command.cry
+    permission-message: ""
+    usage: "Usage: /<command>"
+  drop:
+    description: Drops the item in your hand
+    permission: ptcraft.command.drop
+    permission-message: ""
+    usage: "Usage: /<command>"
+  fly:
+    description: Lets you fly
+    permission: ptcraft.command.fly
+    permission-message: ""
+    usage: "Usage: /<command>"
+  help:
+    description: Sends a help message
+    permission: ptcraft.command.help
+    permission-message: ""
+    usage: "Usage: /<command>"
+  leave:
+    description: Leaves the server
+    permission: ptcraft.command.leave
+    permission-message: ""
+    usage: "Usage: /<command>"
+  love:
+    description: Makes hearts appear
+    permission: ptcraft.command.love
+    permission-message: ""
+    usage: "Usage: /<command>"
+  mod:
+    description: Sends a mod message
+    permission: ptcraft.command.mod
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  party:
+    description: Sends a party message
+    aliases: ["p"]
+    permission: ptcraft.command.party
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  roll:
+    description: Rolls a dice
+    permission: ptcraft.command.roll
+    permission-message: ""
+    usage: "Usage: /<command> [[start-]end]"
+  s1:
+    description: Sends an s1 message
+    permission: ptcraft.command.s1
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  s2:
+    description: Sends an s2 message
+    permission: ptcraft.command.s2
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  s3:
+    description: Sends an s3 message
+    permission: ptcraft.command.s3
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  say:
+    description: Sends a message
+    aliases: ["s"]
+    permission: ptcraft.command.say
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  ss:
+    description: Sends an ss message
+    permission: ptcraft.command.ss
+    permission-message: ""
+    usage: "Usage: /<command> <Your message text>"
+  think:
+    description: Sends a think message
+    permission: ptcraft.command.think
+    permission-message: ""
+    usage: "Usage: /<command>"
+  turn:
+    description: Turns you around
+    permission: ptcraft.command.turn
+    permission-message: ""
+    usage: "Usage: /<command>"
+  unstuck:
+    description: Unstucks you
+    permission: ptcraft.command.unstuck
+    permission-message: ""
+    usage: "Usage: /<command>"
+permissions:
+  ptcraft.command.admin:
+    description: Allows you to use the /admin command.
+    default: op
+  ptcraft.command.cry:
+    description: Allows you to use the /cry command.
+    default: true
+  ptcraft.command.drop:
+    description: Allows you to use the /drop command.
+    default: true
+  ptcraft.command.fly:
+    description: Allows you to use the /fly command.
+    default: true
+  ptcraft.command.help:
+    description: Allows you to use the /help command.
+    default: true
+  ptcraft.command.leave:
+    description: Allows you to use the /leave command.
+    default: true
+  ptcraft.command.love:
+    description: Allows you to use the /love command.
+    default: true
+  ptcraft.command.mod:
+    description: Allows you to use the /mod command.
+    default: op
+  ptcraft.command.party:
+    description: Allows you to use the /party command.
+    default: op
+  ptcraft.command.roll:
+    description: Allows you to use the /roll command.
+    default: true
+  ptcraft.command.s1:
+    description: Allows you to use the /s1 command.
+    default: op
+  ptcraft.command.s2:
+    description: Allows you to use the /s2 command.
+    default: op
+  ptcraft.command.s3:
+    description: Allows you to use the /s3 command.
+    default: op
+  ptcraft.command.say:
+    description: Allows you to use the /say command.
+    default: true
+  ptcraft.command.ss:
+    description: Allows you to use the /ss command.
+    default: op
+  ptcraft.command.think:
+    description: Allows you to use the /think command.
+    default: true
+  ptcraft.command.turn:
+    description: Allows you to use the /turn command.
+    default: true
+  ptcraft.command.unstuck:
+    description: Allows you to use the /unstuck command.
+    default: true

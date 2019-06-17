@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PTCraft:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PTCraft_jar</output-path>
+    <root id="archive" name="PTCraft.jar">
+      <element id="module-output" name="PTCraft" />
+    </root>
+  </artifact>
+</component>
